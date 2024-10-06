@@ -1,8 +1,7 @@
-version: '3.8'
 
 services:
   pump:
-    image: pumpio/pump.io
+    build: .
     ports:
       - "31337:31337"
     environment:

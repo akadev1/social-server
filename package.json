@@ -1,0 +1,12 @@
+{
+  "name": "pump.io",
+  "version": "1.0.0",
+  "description": "ActivityStreams-based social server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "pump.io": "^5.1.0"
+  }
+}
