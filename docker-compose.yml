@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  pump:
+    image: pumpio/pump.io
+    ports:
+      - "31337:31337"
+    environment:
+      NODE_ENV: production
+      PUMPIO_HOSTNAME: localhost
+      PUMPIO_PORT: 31337
+      PUMPIO_DRIVER: memory
+    volumes:
+      - ./data:/var/lib/pump.io
